@@ -22,7 +22,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -58,11 +58,11 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  home: / || home 
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
+  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -92,8 +92,9 @@ scheme: Muse
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
+social:
+  GitHub: https://github.com/CharlieYuQi || github
+  Weibo: http://www.weibo.com/weixinbuyi || weibo
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -120,6 +121,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
+avatar: http://ww1.sinaimg.cn/large/e5aac86bgy1fjnsnfm4g0j20go0hsmy2.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -319,15 +321,15 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 5be2fdd47d6451d6d889e142f55cebe6
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: yuqi-tk
   count: true
 
 # Hypercomments
@@ -403,7 +405,7 @@ valine:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
@@ -511,7 +513,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
