@@ -116,7 +116,8 @@ links_layout: block
 #links_layout: inline
 links:
   我的CSDN: http://blog.csdn.net/yucharlie  
-  百度统计: tongji.baidu.com
+  百度统计: http://tongji.baidu.com/
+  百度站长: http://zhanzhang.baidu.com/
   NexT配置文档: http://theme-next.iissnan.com/
   Hexo配置文档: https://hexo.io/docs/
 
