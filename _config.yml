@@ -111,11 +111,11 @@ social_icons:
   transition: false
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
+links_title: 友情链接
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  CSDN: http://blog.csdn.net/yucharlie
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -185,7 +185,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
-  length: 150
+  length: 300
 
 # Post meta display settings
 post_meta:
